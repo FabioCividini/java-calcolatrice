@@ -90,4 +90,20 @@ public class CalcoliHelper {
 		return max;
 	}
 	
+	
+	
+	//BONUS
+	
+	
+	
+	//metodo per l'elevamento a potenza
+	public static double potenza(int base, int esponente) {
+		if(base > 0 && esponente > 0) {
+			return Math.pow(base, esponente);
+		}else {
+			return 0;
+		}
+	}
+	
+	
 }
